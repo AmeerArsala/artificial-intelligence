@@ -1,0 +1,114 @@
+## Key Term Collection
+- Descriptive Statistics
+	- Mode
+	- Range
+	- Median
+	- Mean
+	- Quartiles
+	- Diversity
+		- Variance
+			- ANOVA: Analysis of Variance
+				- Types
+					- Systematic
+					- Random
+				- Single Factor
+				- Two-way
+		- Standard Deviation
+	- Variation
+		- Covariance
+		- Correlation
+	- Normalization
+		- Standardization
+			- Z-Score
+- Expectation --- (Expectation Maximization #ML)
+	- Chi-Squared Test
+- Frequentist Probability/Statistics
+	- Maximum Likelihood Estimation (MLE)
+- Bayesian Probability/Statistics
+	- Maximum a Posteriori (MAP)
+	- Bayes' Theorem
+- Random Variable
+	- Discrete Random Variable
+	- Continuous Random Variable #_PDF_ #MeasureTheory
+- Probability Distributions
+	- Probability Mass Function (PMF) : Probability P(x)
+	- Probability Density Function (PDF) #_ContinuousRandomVariable_ #MeasureTheory 
+		- Dirac Delta Function -> Dirac Distribution -> Empirical Distribution
+	- Marginal Probability
+	- Uniform Distribution
+	- Gaussian/Normal Distribution $\subset$ Multivariate Normal Distribution
+		- central limit theorem
+		- precision matrix -> PDF
+		- Isotropic Gaussian Distribution
+	- Multinomial Distribution --- (multioutput? #ML)
+		- Categorical/Multinoulli Distribution --- (multiclass? #ML)
+			- Bernoulli Distribution (binary classification? #ML)
+	- Exponential Distribution --- Laplace Distribution
+	- Mixture Distribution
+		- Gaussian Mixture #ML
+- Prior probability P(x)
+- Conditional Probability : P(y | x)
+	- Chain Rule of Conditional Probabilities --- (sequence generation #DL)
+	- Posterior Probability
+- Independence
+	- Conditional Independence
+- Universal Approximator
+- Activations #DL 
+	- Logistic Sigmoid
+	- Softplus --- ReLU
+		\- *Where do eLU, swish, gelu, and SeLU fit in??*
+	- Softmax
+- Factorization #_ProbabilityDistribution_
+	- Structured Probabilistic Model
+	- Graphical Model
+		- Directed
+		- Undirected
+- Generalized Linear Model (GLM)
+	- Linear Regression
+
+## Black Box, Contextualization
+from data -> **statistics + probability** -> insights, estimates, etc.
+
+## Questions
+- Why is this important?
+- What is this accomplishing?
+- When/why would we need these?
+- What would happen if we took it away? Would there be anything else that could pick up slack?
+
+## 3-4 Main Ideas: depth=0
+- Descriptive Statistics
+- Probability Distributions
+- Statistical Inference
+
+## TLS
+- What is a variable in the context of statistics and what's the point?
+- What does it mean to sample from a distribution? What is the specific process occurring?
+- How do Frequentist Statistics differ from Bayesian Statistics?
+	- Frequentist is objective, Bayesian is subjective through the use of Bayes theorem
+- What's the difference in usage between MLE and MAP?
+	- They are both used for parameter estimation (parameter argmaxing probabilities)
+- How is this different than the probability mass function (PMF)?
+	- It is estimating parameters, not probability
+- What is the point of PDF and PMF?
+	- Calculate probabilities
+- How is PDF different from PMF?
+	- PDF for continuous distribution, PMF for discrete distribution
+- What's the difference between a machine learning model and a statistical model?
+	- ML models are used to make predictions about new data
+	- Statistical models are used to make predictions about existing data
+- What is statistical inference?
+	- infer properties about data and even estimate
+- Since a uniform distribution is equal chance, is the graph a straight line?
+	- Yes
+- Why is marginal probability important? How is it used in discrete data as opposed to continuous data?
+	- It's literally just a subset of the regular probability distribution, so not really used differently
+- How does conditional probability relate to marginal probability? 
+	- marginal probability is the default (probability alone represented by P(A)), while conditional is P(A | B)
+- How does conditional independence relate to conditional probability?
+	- both regard a condition
+- How are multinomial, multinoulli, bernoulli, and binomial distributions related to one another?
+- Why is bernoulli only a single trial? What is the point of multiple trials in a binomial distribution? 
+	- To have a vector output of 0s and 1s (multilabel)
+- Why does central limit theorem work?
+- Why does the central limit theorem matter? What is its purpose and application? If it didn't exist, what would that imply?
+- Why do sharp-pointed at 0 distributions matter in the context of deep learning?

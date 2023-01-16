@@ -1,0 +1,19 @@
+### Key Term Collection
+- Gram Schmidt Process
+- Orthogonal Matrices
+- Symmetric Matrices
+- Isometric Matrices
+- Cauchy-Schwarz Inequality
+- QR Factorization
+- LU Factorization
+- Linear Transformations 
+- Least Squares
+- Eigen
+	- Eigenvectors, Eigenspaces
+	- Eigendecomposition
+- Spectral Decomposition
+- Singular Value Decomposition (SVD)
+- Determinants
+- Cramer's Rule
+- Moore-Penrose Pseudoinverse
+- Tensor Algebra
