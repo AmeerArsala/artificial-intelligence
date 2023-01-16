@@ -75,7 +75,7 @@ from data -> **statistics + probability** -> insights, estimates, etc.
 - When/why would we need these?
 - What would happen if we took it away? Would there be anything else that could pick up slack?
 
-## 3-4 Main Ideas: depth=0
+## 3-4 Main Ideas; depth=0
 - Descriptive Statistics
 - Probability Distributions
 - Statistical Inference
