@@ -113,5 +113,11 @@ from data -> **statistics + probability** -> insights, estimates, etc.
 	- Dude just think about it. It's talking about the MEANs of the distribution. If the variables are RANDOM, then it stands to say that they are DIVERSE $\therefore$ sample through this enough get enough of them (rule of thumb: >= 25 examples per sample) and you will have a large, diverse dataset. Take the means of each sample (the midpoints of DIVERSE data) and what you will get is a dataset that approximately follows a normal distribution (when put into a histogram)
 - Why does the central limit theorem matter? What is its purpose and application? If it didn't exist, what would that imply?
 	- If any random distribution can approximately follow a normal distribution (human error is a good example of this, you can say it is random), then you can throw a normal distribution at most problems and do well with it. If it didn't exist, we wouldn't be able to necessarily prototype solutions to problems with continous data as easily
+- How are probability distributions used in machine learning?
+	- Anomaly Detection, Gaussian Mixtures, Unsupervised Learning, Semisupervised Learning
+	- Data insights, imbalanced classification?
+- How are probability distributions even used in deep learning?
+	- weight initialization
+	- 
 - Why do sharp-pointed at 0 distributions matter in the context of deep learning?
 - How are generative models different from discriminative models in machine learning?
