@@ -118,6 +118,9 @@ from data -> **statistics + probability** -> insights, estimates, etc.
 	- Data insights, imbalanced classification?
 - How are probability distributions even used in deep learning?
 	- weight initialization
-	- 
+	- y and yhat are often discrete probability distributions in classification
 - Why do sharp-pointed at 0 distributions matter in the context of deep learning?
+	- In generative models, it can make the model generate examples closer to the training set
 - How are generative models different from discriminative models in machine learning?
+	- Discriminative models make assumptions about the distribution of data (train, test, validation set) and make prediction from the data (x -> y)
+	- Generative models learn the distribution of data (answering: what makes something a member of x?) and then sampling from it (y -> x). They make even more assumptions about the distribution of the data (example: Naive Bayes)
