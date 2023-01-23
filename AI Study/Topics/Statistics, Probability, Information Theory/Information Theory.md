@@ -30,7 +30,7 @@
 - What's the difference between Gini Impurity and Entropy? Why use one over the other?
 	- Gini Impurity is defined by $G=1-\sum{p^2}$
 	- From the equation alone, you can tell that there is a similarity in approach between Gini Impurity and entropy. However, Gini seems to be computationally faster, but more linear
-	- 
+	- Additionally, Gini Impurity (in the context of a decision tree) seems to end up in more "sparsity" of splits, while Entropy seems to produce more balanced trees. How? $-p^2$ from $[0.0, 1.0]$ decreases a lot faster than entropy's negative logarithmic value 
 - Why isn't Gini Impurity used as a loss function if they are so similar?
 	- If it WERE to be used as a classification loss function, it would go like: $1-\sum{y\hat{y}}$ 
 		- Maybe it wouldn't even include the 1 as that could potentially be redundant
