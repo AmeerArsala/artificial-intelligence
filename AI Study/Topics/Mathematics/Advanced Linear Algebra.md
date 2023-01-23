@@ -7,7 +7,7 @@
 - QR Factorization
 - LU Factorization
 - Linear Transformations 
-- Least Squares
+- Least-Squares
 - Eigen
 	- Eigenvectors, Eigenspaces
 	- Eigendecomposition
