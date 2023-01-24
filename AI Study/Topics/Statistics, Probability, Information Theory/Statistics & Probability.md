@@ -124,3 +124,11 @@ from data -> **statistics + probability** -> insights, estimates, etc.
 - How are generative models different from discriminative models in machine learning?
 	- Discriminative models make assumptions about the distribution of data (train, test, validation set) and make prediction from the data (x -> y)
 	- Generative models learn the distribution of data (answering: what makes something a member of x?) and then sampling from it (y -> x). They make even more assumptions about the distribution of the data (example: Naive Bayes)
+
+## TLS: Round 2
+- Why do we use different types of functions to model discrete and continuous probability distributions? Why can't they be the same?
+- How would discrete variables be applied differently than continuous variables in terms of use cases?
+- Why are probability distributions important? If we didn't use them, what would be different? What purpose do the probability distributions serve?
+	- probabilistic behavior of data
+	- Why are the standard probability distributions themselves important? Why are we able to just throw a probability distribution at a problem to help solve it?
+- Why is the 

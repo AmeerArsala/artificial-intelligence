@@ -16,3 +16,7 @@
 - Constrained Optimization
 	- Karush–Kuhn–Tucker (KKT) approach
 		- generalized Lagrangian function
+
+
+## TLS
+- Why is optimization important? What are the applications?
